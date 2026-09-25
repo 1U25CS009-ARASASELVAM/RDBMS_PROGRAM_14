@@ -19,3 +19,8 @@ BEGIN
         RAISE_APPLICATION_ERROR(-20001, 'Incorrect sum');
     END IF;
 END;
+    DBMS_OUTPUT.PUT_LINE('First Number: ' || num1);
+    DBMS_OUTPUT.PUT_LINE('Second Number: ' || num2);
+    DBMS_OUTPUT.PUT_LINE('Sum: ' || total);
+END;
+/
